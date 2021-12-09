@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.box{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.fon{
+   width: 100%;
+   height: 100%;  
+}
+body{
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+.cloud{
+    z-index: 1;
+}
+.cloud_1{
+    position: absolute;
+    top: 7.09px;
+    left: 15px;
+}
+
+.cloud_2{
+   position: absolute;
+left: 60.13%;
+right: 2.65%;
+top: 6.4%;
+
+}
+.smile-cloud{
+    position: absolute;
+    top: 68.97px;
+    right: 701.88px;
+}
+.sm_cloud_2{
+    position: absolute;
+    top: 118.49px;
+    right:  670.17px;
+}
+.cloud_4{
+    position: absolute;
+    top: 131.53px;
+    left: 15px;
+}
+.mountain{
+    position: absolute;
+    top: 187px;
+    left: 15px;
+}
+.mount_2{
+    position: absolute;
+    top: 216px;
+    right: 2px;
+}
+.sea{
+    position: absolute;
+    top: 284px;
+    left: 20px;
+    width: 100%;
+}
+.sun{
+    position: absolute;
+    top: 139px;
+    left: 670px;
+background-blend-mode: screen;
+mix-blend-mode: screen;
+opacity: 0.5;
+transform: rotate(-45deg);
+}
+.sun_ray{
+    position: absolute;
+    left: 290px;
+ top: 79px;
+ background-blend-mode: screen;
+opacity: 0.5;
+mix-blend-mode: screen;
+}
+.sun_corp_1{
+    position: absolute;
+    top: 144px;
+    left: 640px; 
+    mix-blend-mode: screen;
+opacity: 0.5;
+}
+.sun_corp_2{
+    position: absolute;
+    top: 146px;
+    left: 650px;
+    mix-blend-mode: screen;
+opacity: 0.5;
+}
+.sun_corp_3{
+    position: absolute;
+    top: 153px;
+    left: 670px;
+    mix-blend-mode: screen;
+opacity: 0.5;
+}
+.sun_corp_4{
+   position: absolute;
+   top: 159px;
+   left: 690px; 
+   mix-blend-mode: screen;
+opacity: 0.5;
+}
+.sun_corp_5{
+    position: absolute;
+    top: 208px;
+    left: 770px;
+    mix-blend-mode: screen;
+opacity: 0.5;
+}
+.corp_6{
+    position: absolute;
+    top: 192px;
+    left: 750px;
+    mix-blend-mode: screen;
+opacity: 0.5;
+}
+.bird_1{
+    position: absolute;
+    top: 158px;
+    left: 464px;
+ 
+}
+.bird_2{
+    position: absolute;
+    top: 190px;
+    left: 490px;
+ 
+}
+.bird-3{
+    position: absolute;
+    top: 188px;
+    left: 516px;
+
+}
+.line_2{
+    position: absolute;
+ top: 6px;
+ right: 2px;
+background: linear-gradient(270deg, #C299B1 0%, #907283 14%, #644F5C 28%, #40333B 42%, #241C21 57%, #100D0F 71%, #040304 86%, #000000 100%);
+background-blend-mode: screen;
+mix-blend-mode: screen;
+opacity: 0.2;
+}
